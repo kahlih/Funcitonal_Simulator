@@ -1,20 +1,17 @@
-Due: Monday 3/3/2014 @ 11:59pm
-
 Objective:
 ~~~~~~~~~~
 
-Learn how to develop a functional simulator
+This was one of the projects we were to complete in our CS429 
+class (Computer Architecture). The Objective was to learn how 
+to develop a functional simulator.
 
-Assignment:
-~~~~~~~~~~~
-
-Finish the Java implementation of a functional simulator for a simple
-instruction set architecture.
+The Assignment was to finish the Java implementation of a functional 
+simulator for a simple instruction set architecture.
 
 The instruction set architecture:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Our architecture has:
+Architecture has:
 
    - 4 8-bit registers R0, R1, R2, and R3
    - an 8-bit PC
@@ -50,21 +47,13 @@ binary encoding    instruction           description
 
 The simulator terminates if it encounters an invalid instruction
 
-To compile:
-~~~~~~~~~~~
 
-make
-
-
-To run:
-~~~~~~~
-
-make test
-
-File:
+More:
 ~~~~~
 
-src/cs429/Main.java         The main program  (don't change it)
-test.ok                     Expected output (don't change it)
-src/cs429/Simulator.java    The simulator
-test.out                    The output produced by running "make test"
+Much of this code was provided for us by our instructor, Professor Gheith. We were
+to complete the file entitled Simulator.java, and once the project was compiled,
+our output was produced in the file test.out. This file was compared to the file
+test.ok to determine whether our implimentation of the Simulator passed his given 
+tests.
+
