@@ -8,6 +8,9 @@ to develop a functional simulator.
 The Assignment was to finish the Java implementation of a functional 
 simulator for a simple instruction set architecture.
 
+Written Code located in Simulator.java and produced output located 
+in test.out (compare with test.ok).
+
 The instruction set architecture:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -46,14 +49,4 @@ binary encoding    instruction           description
                                          register
 
 The simulator terminates if it encounters an invalid instruction
-
-
-More:
-~~~~~
-
-Much of this code was provided for us by our instructor, Professor Gheith. We were
-to complete the file entitled Simulator.java, and once the project was compiled,
-our output was produced in the file test.out. This file was compared to the file
-test.ok to determine whether our implimentation of the Simulator passed his given 
-tests.
 
